@@ -1,0 +1,511 @@
+/***************** Tag selection *******************/
+a {
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+    margin: 25px 15px;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00ABB3;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+}
+
+br {
+    margin: 20px;
+}
+
+h1 {
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+}
+
+h2 {
+    color: #3C4048;
+    font-weight: normal;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2rem;
+    padding-bottom: 3%;
+}
+h2:hover {
+    color: #00ABB3;
+}
+
+h3 {
+    color: #3C4048;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5 {
+    margin-bottom: 18px;
+}
+
+h6 {
+    margin-bottom: 15px;
+}
+
+hr {
+    border: dotted #9BA4B4 6px;
+    border-bottom: none;
+    width: 4%;
+    margin: 100px auto;
+}
+
+.pUnique {
+    color: #3C4048;
+    line-height: 2;
+}
+
+.topPad {
+    margin-top: 65px;
+}
+
+.fakeDiv {
+    size: 65px;
+}
+
+.container {
+    padding-top: 65px;
+}
+/***************** top-container *******************/
+
+/* nav */
+
+.navSections {
+    margin-right: 4%;
+}
+
+.introduction {
+    color: #3C4048;
+    font-family: cursive;
+    font-size: 5rem;
+    margin: 35px auto 8% autp;
+    padding: 0 0 5% 0;
+}
+.introduction:hover {
+    color: #00ABB3;
+}
+
+.headingSkills:hover {
+    color: #00ABB3;
+}
+
+.selfDescription {
+    font-size: 0.5rem;
+}
+.selfDescription:hover {
+    color: #00ABB3;
+}
+
+.about {
+    margin-right: 25%;
+}
+
+.left {
+    text-align: left;
+}
+
+.mid {
+    text-align: middle;
+}
+
+.headingSkills.mid {
+    margin: 0 0 0 15%;
+}
+
+.right {
+    text-align: right;
+}
+
+.naceCode {
+    text-decoration: underline;
+    color:#3C4048;
+}
+
+.naceCode:hover {
+    text-decoration: underline;
+    color:#B2B2B2;
+}
+
+
+.topBar {
+    background-color: #F1F6F9;
+    padding: 0%;
+}
+
+.top-container {
+    background-color: #ffffff;
+    position: relative;
+    padding-top: 100px;
+}
+
+
+#GP {
+    font-family: cursive;
+    font-size: 1.3rem;
+    margin: 1% 1% 1% 4%;
+}
+#GP:hover {
+    color:#00ABB3;
+}
+
+
+.sectionHead {
+    color: #3C4048;
+}
+
+.sectionHead:hover {
+    color: #00ABB3;
+}
+
+.contact {
+    padding-right: 40%;
+}
+
+.top-cloud {
+    position: absolute;
+    top: 50px;
+    right: 200px;
+}
+
+.bottom-cloud {
+    position: absolute;
+    bottom: 300px;
+    left: 200px;
+}
+
+/***** bio section *****/
+
+.bioText {
+    padding: 0 15% 0 15%;
+    text-align: center;
+    size: 10px;
+}
+
+/*** skills circles ***/
+
+/* skills circle global items */
+.circleDiv {
+    display: flex;
+    text-align: center;
+
+}
+.first {
+    padding-left: 15%;
+}
+.second {
+    padding-left: 20%;
+}
+.third {
+    padding-left: 15%;
+}
+
+.circleIcon {
+    width: 25px;
+    height: 25px;
+}
+.circleHeading {
+    size: 50px;
+}
+.circlePlayground {
+    display: inline-block;
+    width: auto;
+    height: 300px;
+}
+/* .skillsCircles {
+    text-align: center;
+    display: float;
+    margin: auto;
+} */
+
+/* first circle */
+.firstCircle {
+    padding: 3%;
+    left: 20%;
+    background-color: #B2B2B2;
+    border-radius: 100%;
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    display: inline;
+    text-align: center;
+}
+.firstCircle:hover {
+    background-color: #00ABB3;
+    z-index: 1;
+    color:#EAEAEA;
+    box-shadow: 0 0 0 5px #B2B2B2;
+}
+.computerSkills {
+    top: 25%;
+}
+
+.secondCircle {
+    padding: 3%;
+    left: 20%;
+    background-color: #EAEAEA;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 270px;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    text-align: center;
+}
+.secondCircle:hover {
+    background-color: #00ABB3;
+    z-index: 1;
+    color:#EAEAEA;
+    box-shadow: 0 0 0 5px #B2B2B2;
+}
+
+.thirdCircle {
+    padding: 3%;
+    left: 20%;
+    background-color: #B2B2B2;
+    border-radius: 100%;
+    position: absolute;
+    margin-left: 540px;
+    width: 300px;
+    height: 300px;
+    z-index: 0;
+    text-align: center;
+}
+.thirdCircle:hover {
+    background-color: #00ABB3;
+    z-index: 1;
+    color:#EAEAEA;
+    box-shadow: 0 0 0 5px #B2B2B2;
+}
+
+/* circle text */
+.programIcon {
+    width: 25px;
+    height: 25px;
+    color: #EAEAEA;
+}
+
+/***************** middle-container *******************/
+
+.middle-container {
+    padding: 25% auto;
+    background-color: #ffffff;
+}
+
+.educationPlayground {
+    display: block;
+}
+
+/* logos */
+
+.rvtLogo {
+    margin-left: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.icvsLogo {
+    margin-left: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+
+.lkaLogo {
+    margin: 7% 0 0 65%;
+    width: 272px;
+    height: 70px;
+}
+
+.rtuLogo {
+    width: 150px;
+    height: 150px;
+    margin-right: 85%;
+}
+
+
+.btn {
+    text-align: center;
+}
+
+.rtuHeading {
+    margin: 7% 0 0 50%;
+}
+
+.schoolName {
+    width: 65%;
+    margin-right: 45%;
+}
+
+
+
+/* <---------- CAROUSEL ---------> */
+
+.year {
+    margin: 1% 3% 2%;
+}
+
+/* ICVS */
+.schoolDescription.icvs {
+    text-align: center;
+    margin: 3% 3% 0 0;
+    width: 75%;
+
+}
+
+/* RVT */
+.schoolDescription.rvt {
+    text-align: center;
+    margin: 5% 3% 0 0;
+    width: 60%;
+    text-decoration: none;
+}
+.naceCode {
+    margin: 0 55% 0 0;
+    text-align: center;
+}
+
+/* LKA/RTU */
+.schoolDescription.lkaRtu {
+    margin: 3%, 9%, 0, 0;
+    width: auto;
+    text-align: center;
+}
+
+
+.indicator {
+    margin-top: 50%;
+    background-color: #14274E;
+
+}
+
+
+.carousel-control-prev-icon {
+    background-color: #9BA4B4;
+    border-radius: 100%;
+}
+
+.carousel-control-next-icon {
+    background-color: #9BA4B4;
+    border-radius: 100%;
+}
+
+.educationCarousel {
+    color: #14274E;
+    background-color: #ffffff;
+}
+
+#educationCarousel {
+    width: auto;
+    height: 300px;
+}
+
+.ulList {
+    margin: 0 3% 0 0;
+}
+
+
+
+.intro {
+    width: 30%;
+    margin: auto;
+}
+
+
+.skill-row {
+    width: 50%;
+    margin: 100px auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.computer-image {
+    width: 25%;
+    float: left;
+    margin-right: 30px;
+}
+
+.computer-programming-heading {
+    margin: 0;
+    padding: 35px 25px;
+}
+
+.code-skill-description {
+    clear: left;
+    margin-top: 10px;
+}
+
+
+.chily-image {
+    width: 25%;
+    float: right;
+    margin-right: 30px;
+    margin-bottom: 10%;
+}
+
+.chily-heading {
+    margin: 0;
+    padding: 35px 25px;
+}
+
+.spicy-food-description {
+    clear: right;
+    margin-top: 10%;
+}
+
+
+.contact-me-description {
+    width: 40%;
+    margin: 2% auto 5%;
+}
+
+/* contact initate section */
+
+.contact-me {
+    margin: 0 auto 10%;
+}
+
+
+/***************** bottom-container *******************/
+
+
+.bottom-container {
+    background-color: #B2B2B2;
+    position: relative;
+    display: block;
+    padding: 100px auto;
+}
+
+.footer-link {
+    display: inline-block;
+    color: #00ABB3;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    padding: 5px;
+}
+
+.iconFooter {
+    color: #3C4048;
+    width: 25px;
+    height: 25px;
+}
+.iconFooter:hover {
+    color: #00ABB3;
+}
+
+.copyright {
+    color: #F1F6F9;
+    font-size: 0.75rem;
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0 0 50px;
+}
+
+

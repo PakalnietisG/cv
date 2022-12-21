@@ -1,0 +1,436 @@
+<html lang="en">
+<!DOCTYPE html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="favicon.ico">
+
+  <!-- Google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat:wght@100;400;900&family=Sacramento&display=swap"
+    rel="stylesheet">
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8" crossorigin="anonymous">
+  </script>
+
+  <!-- CSS -->
+  <link rel="stylesheet" type="text/css" href="styles.css">
+
+  <!-- Font Awesome -->
+
+
+  <title>Gunārs Pakalnietis</title>
+</head>
+
+<body>
+
+  <!-- nav -->
+
+  <nav class="navbar navbar-expand-lg sticky-top topBar">
+    <a class="navbar-brand" href="#about" id="GP">Gunārs Pakalnietis</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarToggler"
+      aria-controls="navbarToggler" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarToggler">
+      <ul class="navbar-nav ms-auto ulList">
+        <li class="nav-item">
+          <a class="nav-link sectionHead" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sectionHead" href="#bio">Bio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sectionHead" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sectionHead" href="#education">Education</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link sectionHead contact" href="#contactInitiate">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <div class="top-container">
+    <div class="row" id="about">
+      <div class="col-lg-6">
+        <img src="images/ProfilePicture.png" alt="pofile-img" id="profileImage"
+          onclick="src='images/elements/DivineCard.png'">
+        <!-- src='images/elements/DivineCard.png' -->
+        <br>
+        <p class="selfDescription center">This is my picture. Yes I'm decent looking fella.</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="about">
+          <a href="#">
+            <h1 class="introduction" onclick="src='images/elements/DivineCard.png'">Hello, I'm Gunārs.</h1>
+          </a>
+          <br>
+
+          <h2 class="headingSkills left"><a href="#skills"></a>a front-end programmer,</a></h2>
+
+
+          <a href="#education">
+            <h2 class="headingSkills mid">commercial worker</h2>
+          </a>
+
+          <a href="https://www.youtube.com/channel/UCd_Cvsh4Nb4Ho6ZCvCnZz0A" target="_blank">
+            <h2 class="headingSkills right">and an artist.</h2>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <hr>
+
+  <!-- bio  -->
+    <div id="bio" class="view">
+      <h2>Bio</h2>
+      <p class="bioText">I am Gunārs, born in Riga, Latvia. To this day, I've only lived in this city and country. I've
+        spent most of my free time on the internet. Therefore my mind is consumed with information, that could be
+        factual and querky or completely off.
+      </p>
+      <p class="bioText">I've studied multiple things such as electronics and arts, you could argue I'm a Jack of all
+        trades.</p>
+    </div>
+
+  <hr>
+
+  <!-- skills -->
+
+  <div class="circlePlayground" id="skills">
+    <h2>My Skills</h2>
+    <div class="firstCircle">
+      <h5>Computer skills:</h5>
+
+      <div class="skillsCircles first">
+
+        <div class="circleDiv">
+            <img class="programIcon" alt="Microsoft Office logo (2019–present)"
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/5f/Microsoft_Office_logo_%282019%E2%80%93present%29.svg/512px-Microsoft_Office_logo_%282019%E2%80%93present%29.svg.png">
+          <h6> - professional</h6>
+        </div>
+
+        <div class="circleDiv">
+          <svg class="programIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M0 32l34.9 395.8L191.5 480l157.6-52.2L384 32H0zm308.2 127.9H124.4l4.1 49.4h175.6l-13.6 148.4-97.9 27v.3h-1.1l-98.7-27.3-6-75.8h47.7L138 320l53.5 14.5 53.7-14.5 6-62.2H84.3L71.5 112.2h241.1l-4.4 47.7z" />
+          </svg>
+          <h6> - intermediate</h6>
+        </div>
+
+        <div class="circleDiv">
+          <svg class="programIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+            <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M480 32l-64 368-223.3 80L0 400l19.6-94.8h82l-8 40.6L210 390.2l134.1-44.4 18.8-97.1H29.5l16-82h333.7l10.5-52.7H56.3l16.3-82H480z" />
+          </svg>
+          <h6> - beginner</h6>
+        </div>
+
+        <div class="circleDiv">
+          <svg class="programIcon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+            <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+            <path
+              d="M0 32v448h448V32H0zm243.8 349.4c0 43.6-25.6 63.5-62.9 63.5-33.7 0-53.2-17.4-63.2-38.5l34.3-20.7c6.6 11.7 12.6 21.6 27.1 21.6 13.8 0 22.6-5.4 22.6-26.5V237.7h42.1v143.7zm99.6 63.5c-39.1 0-64.4-18.6-76.7-43l34.3-19.8c9 14.7 20.8 25.6 41.5 25.6 17.4 0 28.6-8.7 28.6-20.8 0-14.4-11.4-19.5-30.7-28l-10.5-4.5c-30.4-12.9-50.5-29.2-50.5-63.5 0-31.6 24.1-55.6 61.6-55.6 26.8 0 46 9.3 59.8 33.7L368 290c-7.2-12.9-15-18-27.1-18-12.3 0-20.1 7.8-20.1 18 0 12.6 7.8 17.7 25.9 25.6l10.5 4.5c35.8 15.3 55.9 31 55.9 66.2 0 37.8-29.8 58.6-69.7 58.6z" />
+          </svg>
+          <h6> - beginner</h6>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="secondCircle">
+      <h5>Language skills:</h5>
+      <div class="skillsCircles second">
+
+        <div class="circleDiv">
+          <img class="circleIcon latvian" alt="Latvian icon" src="images/skills/latvia.png">
+          <h6> - C2 level</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon english" alt="UK icon" src="images/skills/united-kingdom.png">
+          <h6> - C1 level</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon german" alt="German icon" src="images/skills/german.png">
+          <h6> - B1 level</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon russian" alt="Russian icon" src="images/skills/russia.png">
+          <h6> - A2 level</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon sweden" alt="Sweden icon" src="images/skills/sweden.png">
+          <h6> - A1 level</h6>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="thirdCircle">
+      <h5>Creative skills:</h5>
+      <div class="skillsCircles third">
+
+        <div class="circleDiv">
+          <img class="circleIcon" src="images/skills/icons8-fl-studio-512.png" alt="fl-icon">
+          <h6> - intermediate</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon" src="images/skills/icons8-adobe-creative-cloud-480.png" alt="creative-cloud-icon">
+          <h6> - beginner</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon" src="images/skills/photoshop.png" alt="photoshop-icon">
+          <h6> - intermediate</h6>
+        </div>
+
+        <div class="circleDiv">
+          <img class="circleIcon" src="images/skills/illustrator.png" alt="ilustrator-icon">
+          <h6> - intermediate</h6>
+        </div>
+
+      </div>
+    </div>
+  </div>
+  <hr>
+  </div>
+
+
+  <!-- education -->
+
+  <div class="middle-container">
+    <section id="education">
+      <div class="educationPlayground">
+        <br>
+        <h2>Education</h2>
+        <div id="educationCarousel" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="year">2004. - 2013. year</div>
+              <div class="row">
+                <div class="col-lg-6 col-md-6">
+                  <a href="https://ricps.lv/skolas-misija-vizija-vertibas/">
+                    <img src="images/education/icvs-emblema-150x150-1.png" class="icvsLogo" alt="ICVS-Emblem">
+                  </a>
+
+                </div>
+                <div class="col-lg-6 col-md-6">
+                  <div class="schoolDescription icvs">
+
+                    <h2 class="schoolName icvs">Iļģuciema Vidusskola</h2>
+                    <h6 class="schoolDescription icvs">Riga (Latvia, Baltic States, Europe)</h6>
+                    <p class="schoolDescription icvs">1-4. Elementary school / 5-9. Secondary school</p>
+                  </div>
+                </div>
+              </div>
+              <br>
+
+
+            </div>
+            <div class="carousel-item">
+              <div class="year">2013. - 2017. year</div>
+
+              <div class="row">
+
+                <div class="col-lg-6 col-md-6">
+                  <a href="https://www.old.rvt.lv/macibas/profesijas2019/3159-komerczinibas-komercdarbibas-nodala"
+                    target="_blank">
+                    <img src="images/education/RVT-100-gadi-logo-e1616052812909.png" class="rvtLogo" alt="RVT-Emblem">
+                  </a>
+                </div>
+                <div id="commercialWorker rvt" class="col-lg-6 col-md-6">
+                  <h3 class="schoolName rvt">Riga National Technical School</h3>
+
+                  <a href="https://www.old.rvt.lv/macibas/profesijas2019/3159-komerczinibas-komercdarbibas-nodala"
+                    target="_blank" class="naceCode" style="text-align: center;">
+                    <p class="schoolDescription rvt">Professional-High School diploma qualification “Commercial Worker”
+                    </p>
+                  </a>
+                  <a href="https://likumi.lv/ta/id/291004-noteikumi-par-profesiju-klasifikatoru-profesijai-atbilstosiem-pamatuzdevumiem-un-kvalifikacijas-pamatprasibam"
+                    class="naceCode" target="_blank">
+                    <p>NACE Code: 3339 29</p>
+                  </a>
+                </div>
+
+              </div>
+              <br>
+
+
+            </div>
+            <div class="carousel-item">
+              <div class="year">2018. - 2020. year</div>
+
+              <div class="row">
+                <br>
+                <div class="col-lg-4 col-md-4">
+                  <a href="https://www.lka.edu.lv/lv/gribu-studet-akademija/studijas/bak1/radosas-industrijas/"><img
+                      src="images/education/lka-logo.png" class="lkaLogo" alt="LKA-logo"></a>
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <img src="images/education/Radosas-industrijas-logo.png" alt="creative-Industries-Logo">
+                </div>
+                <div class="col-lg-4 col-md-4">
+                  <a href="https://www.rtu.lv/lv/studijas/visas-studiju-programmas/atvert/IBZ?department=22000">
+                    <img src="https://upload.wikimedia.org/wikipedia/lv/f/fd/RTU_logo_2017.svg" alt="rtuLogo"
+                      class="rtuLogo">
+                  </a>
+                </div>
+              </div>
+              <br>
+              <div class="row">
+                <div class="row">
+                </div>
+                <h6>Latvian Academy of Culture and Riga Technical univeristy presents:</h6>
+                <h5>Bachelors course "Creative Industries"</h5>
+              </div>
+              <br>
+              <p class="schoolDescription">I've finished first year with success. <i>I have not graduated with this
+                  bachelors degree.</i></p>
+            </div>
+          </div>
+
+          <button class="carousel-control-prev" type="button" data-bs-target="#educationCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+
+          <button class="carousel-control-next" type="button" data-bs-target="#educationCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="false"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <br>
+      </div>
+  </div>
+
+  <div id="contactInitiate" class="contact-me">
+    <hr>
+
+    <h2>Contacts</h2>
+    <p class="contact-me-description">Official information you should send to Email by clicking contact-me. It's a
+      direct link to my personal email. If I don't respond in a moderate time feel free to call or send sms.</p>
+
+    <div class="btn">
+      <a href="tel:+371-29551102">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-telephone"
+          viewBox="0 0 16 16">
+          <path
+            d="M3.654 1.328a.678.678 0 0 0-1.015-.063L1.605 2.3c-.483.484-.661 1.169-.45 1.77a17.568 17.568 0 0 0 4.168 6.608 17.569 17.569 0 0 0 6.608 4.168c.601.211 1.286.033 1.77-.45l1.034-1.034a.678.678 0 0 0-.063-1.015l-2.307-1.794a.678.678 0 0 0-.58-.122l-2.19.547a1.745 1.745 0 0 1-1.657-.459L5.482 8.062a1.745 1.745 0 0 1-.46-1.657l.548-2.19a.678.678 0 0 0-.122-.58L3.654 1.328zM1.884.511a1.745 1.745 0 0 1 2.612.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
+        </svg> +371 29551102</a>
+    </div>
+
+    <div class="btn">
+      <a href="mailto:pakalnietis.gunars@gmail.com"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+          fill="currentColor" class="bi bi-envelope" viewBox="0 0 16 16">
+          <path
+            d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4Zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2Zm13 2.383-4.708 2.825L15 11.105V5.383Zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741ZM1 11.105l4.708-2.897L1 5.383v5.722Z" />
+        </svg> pakalnietis.gunars@gmail.com</a>
+    </div>
+
+    <div class="btn">
+      <a href="download/cv.pdf" download="CV of Gunars Pakalnietis"><svg xmlns="http://www.w3.org/2000/svg" width="16"
+          height="16" fill="currentColor" class="bi bi-file-person" viewBox="0 0 16 16">
+          <path
+            d="M12 1a1 1 0 0 1 1 1v10.755S12 11 8 11s-5 1.755-5 1.755V2a1 1 0 0 1 1-1h8zM4 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2H4z" />
+          <path d="M8 10a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
+        </svg> My CV</a>
+
+    </div>
+
+  </div>
+
+  <!-- footer -->
+
+  <div id="footer" class="bottom-container">
+    <a class="footer-link" href="https://www.linkedin.com/in/gun%C4%81rs-pakalnietis-bb86b7191/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z" />
+      </svg>
+    </a>
+    <a class="footer-link" href="https://twitter.com/GPakalnietis" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+      </svg>
+    </a>
+    <a class="footer-link" href="https://www.facebook.com/profile.php?id=100009290717470" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+      </svg>
+    </a>
+    <a class="footer-link" href="https://www.instagram.com/pakalnietisg/" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+      </svg>
+    </a>
+
+    <a href="https://soundcloud.com/prodfuss" class="footer-link" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M111.4 256.3l5.8 65-5.8 68.3c-.3 2.5-2.2 4.4-4.4 4.4s-4.2-1.9-4.2-4.4l-5.6-68.3 5.6-65c0-2.2 1.9-4.2 4.2-4.2 2.2 0 4.1 2 4.4 4.2zm21.4-45.6c-2.8 0-4.7 2.2-5 5l-5 105.6 5 68.3c.3 2.8 2.2 5 5 5 2.5 0 4.7-2.2 4.7-5l5.8-68.3-5.8-105.6c0-2.8-2.2-5-4.7-5zm25.5-24.1c-3.1 0-5.3 2.2-5.6 5.3l-4.4 130 4.4 67.8c.3 3.1 2.5 5.3 5.6 5.3 2.8 0 5.3-2.2 5.3-5.3l5.3-67.8-5.3-130c0-3.1-2.5-5.3-5.3-5.3zM7.2 283.2c-1.4 0-2.2 1.1-2.5 2.5L0 321.3l4.7 35c.3 1.4 1.1 2.5 2.5 2.5s2.2-1.1 2.5-2.5l5.6-35-5.6-35.6c-.3-1.4-1.1-2.5-2.5-2.5zm23.6-21.9c-1.4 0-2.5 1.1-2.5 2.5l-6.4 57.5 6.4 56.1c0 1.7 1.1 2.8 2.5 2.8s2.5-1.1 2.8-2.5l7.2-56.4-7.2-57.5c-.3-1.4-1.4-2.5-2.8-2.5zm25.3-11.4c-1.7 0-3.1 1.4-3.3 3.3L47 321.3l5.8 65.8c.3 1.7 1.7 3.1 3.3 3.1 1.7 0 3.1-1.4 3.1-3.1l6.9-65.8-6.9-68.1c0-1.9-1.4-3.3-3.1-3.3zm25.3-2.2c-1.9 0-3.6 1.4-3.6 3.6l-5.8 70 5.8 67.8c0 2.2 1.7 3.6 3.6 3.6s3.6-1.4 3.9-3.6l6.4-67.8-6.4-70c-.3-2.2-2-3.6-3.9-3.6zm241.4-110.9c-1.1-.8-2.8-1.4-4.2-1.4-2.2 0-4.2.8-5.6 1.9-1.9 1.7-3.1 4.2-3.3 6.7v.8l-3.3 176.7 1.7 32.5 1.7 31.7c.3 4.7 4.2 8.6 8.9 8.6s8.6-3.9 8.6-8.6l3.9-64.2-3.9-177.5c-.4-3-2-5.8-4.5-7.2zm-26.7 15.3c-1.4-.8-2.8-1.4-4.4-1.4s-3.1.6-4.4 1.4c-2.2 1.4-3.6 3.9-3.6 6.7l-.3 1.7-2.8 160.8s0 .3 3.1 65.6v.3c0 1.7.6 3.3 1.7 4.7 1.7 1.9 3.9 3.1 6.4 3.1 2.2 0 4.2-1.1 5.6-2.5 1.7-1.4 2.5-3.3 2.5-5.6l.3-6.7 3.1-58.6-3.3-162.8c-.3-2.8-1.7-5.3-3.9-6.7zm-111.4 22.5c-3.1 0-5.8 2.8-5.8 6.1l-4.4 140.6 4.4 67.2c.3 3.3 2.8 5.8 5.8 5.8 3.3 0 5.8-2.5 6.1-5.8l5-67.2-5-140.6c-.2-3.3-2.7-6.1-6.1-6.1zm376.7 62.8c-10.8 0-21.1 2.2-30.6 6.1-6.4-70.8-65.8-126.4-138.3-126.4-17.8 0-35 3.3-50.3 9.4-6.1 2.2-7.8 4.4-7.8 9.2v249.7c0 5 3.9 8.6 8.6 9.2h218.3c43.3 0 78.6-35 78.6-78.3.1-43.6-35.2-78.9-78.5-78.9zm-296.7-60.3c-4.2 0-7.5 3.3-7.8 7.8l-3.3 136.7 3.3 65.6c.3 4.2 3.6 7.5 7.8 7.5 4.2 0 7.5-3.3 7.5-7.5l3.9-65.6-3.9-136.7c-.3-4.5-3.3-7.8-7.5-7.8zm-53.6-7.8c-3.3 0-6.4 3.1-6.4 6.7l-3.9 145.3 3.9 66.9c.3 3.6 3.1 6.4 6.4 6.4 3.6 0 6.4-2.8 6.7-6.4l4.4-66.9-4.4-145.3c-.3-3.6-3.1-6.7-6.7-6.7zm26.7 3.4c-3.9 0-6.9 3.1-6.9 6.9L227 321.3l3.9 66.4c.3 3.9 3.1 6.9 6.9 6.9s6.9-3.1 6.9-6.9l4.2-66.4-4.2-141.7c0-3.9-3-6.9-6.9-6.9z" />
+      </svg>
+    </a>
+
+    <a href="https://www.youtube.com/channel/UCd_Cvsh4Nb4Ho6ZCvCnZz0A" class="footer-link" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z" />
+        Youtube</svg>
+    </a>
+
+    <a href="https://github.com/PakalnietisG?tab=repositories" class="footer-link" target="_blank">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" class="iconFooter">
+        <!--! Font Awesome Pro 6.2.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+        <path
+          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+        Github</svg>
+    </a>
+
+    <p class="copyright">© 2022 Gunārs Pakalnietis.</p>
+  </div>
+  </section>
+  </div>
+
+  <!-- JavaScript -->
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="type/JavaScript" src="index.js" charset="utf-8"></script>
+</body>
+
+</html>

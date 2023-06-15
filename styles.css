@@ -231,8 +231,8 @@ hr {
     background-color: #B2B2B2;
     border-radius: 100%;
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     z-index: 0;
     display: inline;
     text-align: center;
@@ -254,8 +254,8 @@ hr {
     border-radius: 100%;
     position: absolute;
     margin-left: 270px;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     z-index: 0;
     text-align: center;
 }
@@ -273,8 +273,8 @@ hr {
     border-radius: 100%;
     position: absolute;
     margin-left: 540px;
-    width: 450px;
-    height: 450px;
+    width: 400px;
+    height: 400px;
     z-index: 0;
     text-align: center;
 }

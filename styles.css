@@ -227,12 +227,12 @@ hr {
 /* first circle */
 .firstCircle {
     padding: 3%;
-    left: 30%;
+    left: 20%;
     background-color: #B2B2B2;
     border-radius: 100%;
     position: absolute;
-    width: 380px;
-    height: 380px;
+    width: 375px;
+    height: 375px;
     z-index: 0;
     display: inline;
     text-align: center;
@@ -249,13 +249,13 @@ hr {
 
 .secondCircle {
     padding: 3%;
-    left: 28%;
+    left: 25%;
     background-color: #EAEAEA;
     border-radius: 100%;
     position: absolute;
     margin-left: 270px;
-    width: 380px;
-    height: 380px;
+    width: 375px;
+    height: 375px;
     z-index: 0;
     text-align: center;
 }
@@ -268,13 +268,13 @@ hr {
 
 .thirdCircle {
     padding: 3%;
-    left: 28%;
+    left: 30%;
     background-color: #B2B2B2;
     border-radius: 100%;
     position: absolute;
     margin-left: 540px;
-    width: 380px;
-    height: 380px;
+    width: 375px;
+    height: 375px;
     z-index: 0;
     text-align: center;
 }

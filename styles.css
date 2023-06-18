@@ -224,6 +224,10 @@ hr {
     margin: auto;
 } */
 
+.skills {
+    height: 100px;
+}
+
 /* first circle */
 .firstCircle {
     padding: 3%;

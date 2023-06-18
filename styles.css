@@ -303,6 +303,8 @@ hr {
     background-color: #ffffff;
 }
 
+.
+
 .educationPlayground {
     display: block;
 }
@@ -390,7 +392,6 @@ hr {
 
 }
 
-
 .carousel-control-prev-icon {
     background-color: #9BA4B4;
     border-radius: 100%;
@@ -399,6 +400,10 @@ hr {
 .carousel-control-next-icon {
     background-color: #9BA4B4;
     border-radius: 100%;
+}
+
+#education {
+    height: 500px;
 }
 
 .educationCarousel {

@@ -216,7 +216,7 @@ hr {
 .circlePlayground {
     display: inline-block;
     width: auto;
-    height: auto;
+    height: 550px;
 }
 /* .skillsCircles {
     text-align: center;
